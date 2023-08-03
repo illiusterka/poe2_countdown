@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "FontinRegular";
+    src: url("fontin_regular.ttf");
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background: url("bg.png") black no-repeat top center;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    font-family: "FontinRegular" !important;
+    font-weight: normal !important;
+    font-size: 2rem !important;
+    color: #fffffb !important;
+    background: url("timer_background.png") no-repeat top center !important;
+}
+
+#countdown div {
+    width: 2em;
+    min-width: 2em;
+    margin: 16px 27px 26px 27px;
+    text-align: center;
+}
+
+#poe2-top-section-logo {
+    display: block;
+    max-height: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#poe2-beta-date {
+    display: block;
+    margin: 1.6rem auto 0;
+    max-width: min(600px,80vw);
+}
