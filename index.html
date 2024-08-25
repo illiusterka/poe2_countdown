@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Path of Exile 2 - Closed Beta Countdown</title>
+  <title>Path of Exile 2 - Early Access Countdown</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="style.css" rel="stylesheet" />
 </head>
 <body>
   <img id="poe2-top-section-logo" src="logo.png" alt="">
-  <img id="poe2-beta-date" src="beta.png" alt="">
+  <div class="ea-time"><span class="ea-time-text">Early Access Launching November 15</span></div>
 
   <div id="countdown">
     <div id="days"></div>
@@ -18,7 +18,7 @@
   </div>
 
   <script>
-  var countDownDate = new Date("Jun 7, 2024 19:00:00Z").getTime();
+  var countDownDate = new Date("Nov 15, 2024 00:00:00").getTime();
   var x = setInterval(function() {
     var now = new Date().getTime();
     var distance = countDownDate - now;
