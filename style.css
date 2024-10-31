@@ -10,6 +10,7 @@
 body {
     margin: 0;
     min-width: 500px;
+    background-color: black;
     /* height: 100vh; */
     /* background: url("bg.jpg") black no-repeat top center; */
     /* background-size: cover; */
